@@ -1,0 +1,21 @@
+{
+  "name": "fxr",
+  "version": "0.0.1",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amneacsu/fxr.git"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Andrei Neacșu"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager . fxr --out=./dist --overwrite --platform=darwin --arch=x64 --version=1.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.2"
+  }
+}
